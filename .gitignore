@@ -1,0 +1,42 @@
+# === Mật khẩu & Biến môi trường (Bảo mật) ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# === Hệ điều hành ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === IDE & Editor ===
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# === Thư viện / Dependencies ===
+node_modules/
+vendor/
+jspm_packages/
+
+# === Build / Output / Cache ===
+dist/
+build/
+out/
+*.log
+npm-debug.log*
+yarn-error.log*
+.cache/
+.parcel-cache/
+
+# === OS/Language specific temporary files ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+coverage/
